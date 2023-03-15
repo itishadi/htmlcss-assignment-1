@@ -1,5 +1,10 @@
-.featured-products {
+.newFeatured-products {
     margin-top: 40px;
+    
+    .height {
+        height: 400px;
+    
+    }
 
     .container {
         max-width: 1110px;
@@ -109,7 +114,9 @@
 
 
 @include lg {
-    .featured-products .product-grid {
+
+    .newFeatured-products .product-grid {
+        
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas: "product-0 product-1 product-2 product-3"
@@ -191,9 +198,10 @@
                 margin-bottom: 10px;
             }
         }
+        
     }
 
-    .featured-products .product-grid {
+    .newFeatured-products .product-grid {
 
         .product-card .product-card-img .product-card-menu {
             opacity: 0%;
@@ -204,6 +212,7 @@
             opacity: 100%;
         }
     }
+   
 
 
 }

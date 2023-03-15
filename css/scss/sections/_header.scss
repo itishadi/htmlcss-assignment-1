@@ -13,7 +13,7 @@ header {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "logotype toggleicon"
-                             "menu menu";
+            "menu menu";
 
         @include lg {
             grid-template-columns: 1fr 1fr 1fr;
@@ -24,7 +24,7 @@ header {
     #menu {
         grid-area: menu;
         grid-template-areas: "menulinks"
-                             "menuicons";
+            "menuicons";
 
         @include lg {
             display: grid;
@@ -32,17 +32,21 @@ header {
             grid-template-areas: "menulinks menuicons";
         }
     }
+
     #logotype {
         grid-area: logotype;
     }
+
     #menu-links {
         grid-area: menulinks;
     }
+
     #menu-icons {
         grid-area: menuicons;
     }
+
     #toggle-icon {
-        grid-area: toggleicon;   
+        grid-area: toggleicon;
 
         @include lg {
             display: none;
@@ -56,17 +60,17 @@ header {
         color: $color-dark-2;
     }
 
-    .menu-links {      
+    .menu-links {
         @include lg {
             display: flex !important;
             justify-content: center;
             align-items: center;
         }
-        
+
         .menu-link {
             color: $color-dark-2;
             font-weight: $font-weight-medium;
-            text-decoration: none;           
+            text-decoration: none;
             margin: 10px 12px;
             display: block;
             transition: color 0.15s;
@@ -82,10 +86,9 @@ header {
     }
 
     .menu-icons {
-        // margin-top: 1rem;
         @include content-center;
         margin-left: 6rem;
-        
+
         @include lg {
             margin-top: 0;
             justify-content: flex-end;
@@ -117,8 +120,7 @@ header {
                 text-decoration: none;
             }
         }
-        
+
     }
 
 }
-

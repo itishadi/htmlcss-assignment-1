@@ -14,7 +14,7 @@
     <title>Contact Us - Fixxo.</title>
 </head>
 
-<body>
+<body onload="newFeaturedProducts();">
     <!-- header -->
     <header>
         <div class="container">
@@ -50,62 +50,30 @@
         </div>
     </header>
 
-    <!-- breadcrumb -->
-    <section class="breadcrumb">
+      <!-- breadcrumb -->
+      <section class="breadcrumb">
         <div class="container">
             <ul>
                 <li><a class="menu-link" href="index.html">Home</a></li>
-                <li><a class="menu-link" href="index.products">Products</a></li>
-                <li class="active">Contacts</li>
+                <li class="active">Products</li>
             </ul>
         </div>
     </section>
+    <!-- <div class="massege">
+        <h1>Your comment is sended!</h1>
+    </div> -->
 
-    <!-- google maps -->
-    <section class="google-maps">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2043.8080835943726!2d18.132484717443848!3d59.18578689999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7b9074a99c31%3A0x33fb23ace1ef639c!2sNordkapsv%C3%A4gen%201%2C%20136%2058%20Haninge!5e0!3m2!1ssv!2sse!4v1676467041988!5m2!1ssv!2sse"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-
-
-    <!-- contact form -->
-    <section class="contact-form">
+    <div class="newFeatured-products">
         <div class="container">
-          <h1>Come in Contact with Us</h1>
-          <form novalidate id="contact-forms" onsubmit="handleSubmit(event)">
-            <div class="contact-form-name">
-              <input id="name" name="name" type="text" placeholder="Your Name">
-              <div class="error-holder">
-                <div class="error">
-                    Your name must be valid
-                </div>
-              </div>
+            <div id="product-grid" class="product-grid">
+                <div id="product-card"></div>
             </div>
-            <div class="contact-form-email">
-              <input id="email" name="email" type="email" placeholder="Your Mail">
-              <div class="error-holder">
-                <div class="error">
-                    Your email must be valid
-                </div>
-            </div>
-            </div>
-            <div class="contact-form-comments">
-              <textarea id="comments" name="comments" placeholder="Comments"></textarea>
-              <div class="error-holder">
-                <div class="error">
-                    Your comment must be valid
-                </div>
-            </div>
-            </div>
-            <button class="btn-contact" type="submit">Post Comments</button>
-          </form>
         </div>
         <div class="height"></div>
-      </section>
+    </div>
 
-    <!-- <div style="height: 400px;"></div> -->
-    <script src="js/validation.js"></script>
+
+    <script src="js/script.js"></script>
+
 </body>
-
 </html>
