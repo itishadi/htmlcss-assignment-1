@@ -1,0 +1,485 @@
+.offer-products {
+
+   
+    .offerBox {
+        max-width: 1110px;
+        // padding-top: 1rem;
+        // padding-bottom: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .offerBox-1 {
+        // margin-top: 1rem;
+        margin-left: -0.4rem;
+        display: grid;
+        position: relative;
+        height: 20rem;
+        // width: 60em;
+
+        img {
+            height: 260px;
+            width: auto;
+            // z-index: 1;
+        }
+
+        .btn-themeOffer1 {
+            color: black;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: inline-block;
+            transition: background-color 0.25s;
+            position: absolute;
+            font-size: small;
+            text-decoration: underline;
+            left: 17rem;
+            top: 10.5rem;
+        }
+
+        .btn-themeOffer1:hover {
+            color: $color-theme;
+            font-size: medium;
+            text-decoration: none;
+        }
+
+    }
+
+    .offerBox-2 {
+        // margin-top: 1rem;
+        margin-left: -0.4rem;
+        display: grid;
+        position: relative;
+        height: 20rem;
+        // width: 60em;
+
+        img {
+            height: 260px;
+            width: auto;
+            // z-index: 1;
+        }
+
+        .offerBox-2text {
+            position: absolute;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: xx-large;
+            font-weight: 700;
+            left: 8rem;
+            top: 4rem;
+        }
+
+        .offerBox-2text1 {
+            position: absolute;
+            font-size: x-small;
+            left: 5rem;
+            top: 7.7rem;
+        }
+
+        .offerBox-2text2 {
+            position: absolute;
+            font-size: x-small;
+            left: 3.5rem;
+            top: 8.9rem;
+        }
+
+        .offerBox-2text3 {
+            position: absolute;
+            font-size: x-small;
+            left: 6rem;
+            top: 10.2rem;
+        }
+
+        .btn-themeOffer2 {
+            background-color: #ffffff;
+            color: black;
+            border: 1px solid black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 13px 38px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: inline-block;
+            transition: background-color 0.25s;
+            position: absolute;
+            font-weight: 900;
+            font-size: x-small;
+            left: 7.5rem;
+            top: 11.7rem;
+        }
+
+        .btn-themeOffer2::before {
+            content: "";
+            border-top: 2px solid black;
+            border-left: 2px solid black;
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            height: 16px;
+            width: 16px;
+        }
+
+        .btn-themeOffer2::after {
+            content: "";
+            border-bottom: 2px solid black;
+            border-right: 2px solid black;
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            height: 16px;
+            width: 16px;
+        }
+
+        .btn-themeOffer2:hover {
+            background-color: #222529;
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+    }
+
+    .offerBox-3 {
+        // margin-top: 1rem;
+        margin-left: -0.4rem;
+        display: grid;
+        position: relative;
+        height: 20rem;
+        // width: 60em;
+
+        img {
+            height: 260px;
+            width: auto;
+            // z-index: 1;
+        }
+
+        .btn-themeOffer3 {
+            color: black;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: inline-block;
+            transition: background-color 0.25s;
+            position: absolute;
+            font-size: small;
+            text-decoration: underline;
+            left: 1.4rem;
+            top: 11rem;
+        }
+
+        .btn-themeOffer3:hover {
+            color: $color-theme;
+            font-size: medium;
+            text-decoration: none;
+        }
+    }
+
+}
+
+// @include md {
+//     .offer-products {
+//         .offerBox {
+//             padding-top: 1rem;
+//             padding-bottom: 1rem;
+//             display: grid;
+//             grid-template-columns: 1fr 1fr;
+//             gap: 1.5rem;
+//             margin-left: -1rem;
+//             position: relative;
+
+//         }
+
+//         .offerBox-1 {
+
+//             img {
+//                 height: 245px;
+//             }
+
+//             .btn-themeOffer1 {
+//                 left: 15.5rem;
+//                 top: 11rem;
+//             }
+//         }
+
+//         .offerBox-2 {
+
+//             img {
+//                 height: 245px;
+//             }
+
+//             .btn-themeOffer2 {
+//                 left: 7rem;
+//                 top: 10.5rem;
+//             }
+
+//             .offerBox-2text {
+//                 left: 7rem;
+//                 top: 3rem;
+//             }
+
+//             .offerBox-2text1 {
+//                 font-size: x-small;
+//                 left: 3.5rem;
+//                 top: 6rem;
+//             }
+
+//             .offerBox-2text2 {
+//                 font-size: x-small;
+//                 left: 2rem;
+//                 top: 7.5rem;
+//             }
+
+//             .offerBox-2text3 {
+//                 font-size: x-small;
+//                 left: 3.5rem;
+//                 top: 9rem;
+//             }
+//         }
+
+//         .offerBox-3 {
+//             position: absolute;
+//             top: 18rem;
+//             left: 11rem;
+//             img {
+//                 height: 245px;
+//             }
+
+//             .btn-themeOffer3 {
+//                 left: 1.5rem;
+//                 top: 11rem;
+//             }
+//         }
+//     }
+// }
+
+@include lg {
+    .offer-products {
+        .offerBox {
+            
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            gap: 7rem;
+            // width: 100%;
+            margin-bottom: 8rem;
+            margin-left: 3.5rem;
+       
+            // border: 1px solid black;
+        // .container {
+        //     padding-top: 1rem;
+        //     padding-bottom: 3rem;
+        //     display: grid;
+        //     grid-template-columns: 1fr 1fr;
+        //     // width: 100%;
+        //     gap: 1.5rem;
+        //     // border: 1px solid black;
+      
+
+        .offerBox-1 {
+
+            img {
+                height: 400px;
+            }
+
+            .btn-themeOffer1 {
+                left: 26rem;
+                top: 17rem;
+            }
+        }
+
+        .offerBox-2 {
+
+            img {
+                height: 400px;
+            }
+
+            .btn-themeOffer2 {
+                left: 14rem;
+                top: 17rem;
+            }
+
+            .offerBox-2text {
+                left: 14rem;
+                top: 5rem;
+            }
+
+            .offerBox-2text1 {
+                font-size: small;
+                left: 9rem;
+                top: 9rem;
+            }
+
+            .offerBox-2text2 {
+                font-size: small;
+                left: 7rem;
+                top: 11.5rem;
+            }
+
+            .offerBox-2text3 {
+                font-size: small;
+                left: 9rem;
+                top: 14rem;
+            }
+        }
+        }
+
+        .offerBox-3 {
+            img {
+                height: 400px;
+            }
+
+            .btn-themeOffer3 {
+                left: 2rem;
+                top: 17rem;
+            }
+        }
+    }
+}
+
+
+@include xl {
+
+    .offer-products {
+
+        // padding-top: 5rem;
+        // padding-bottom: 1rem;
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1fr;
+        // width: 100%;
+        // gap: 1.5rem;
+        .offerBox {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            gap: 5rem;
+            width: 100%;
+            margin-bottom: 1rem;
+            margin-left: 12rem;
+
+        .offerBox-1 {
+
+            img {
+                height: 400px;
+            }
+
+            .btn-themeOffer1 {
+                left: 26rem;
+                top: 17rem;
+            }
+        }
+
+        .offerBox-2 {
+
+            img {
+                height: 400px;
+            }
+
+            .btn-themeOffer2 {
+                left: 14rem;
+                top: 17rem;
+            }
+
+            .offerBox-2text {
+                left: 14rem;
+                top: 3.5rem;
+            }
+
+            .offerBox-2text1 {
+                font-size: large;
+                left: 4.5rem;
+                top: 7rem;
+            }
+
+            .offerBox-2text2 {
+                font-size: large;
+                left: 2rem;
+                top: 10rem;
+            }
+
+            .offerBox-2text3 {
+                font-size: large;
+                left: 5.5rem;
+                top: 13rem;
+            }
+        }
+        }
+
+        .offerBox-3 {
+            img {
+                height: 400px;
+            }
+
+            .btn-themeOffer3 {
+                left: 2rem;
+                top: 17rem;
+            }
+        }
+    }
+}
+
+
+@include xxl {
+
+    .offer-products {
+        
+        .offerBox {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-left: -6.5rem;
+            gap: 20px;
+            // width: 100%;
+        .offerBox-1 {
+
+            img {
+                height: 300px;
+            }
+
+            .btn-themeOffer1 {
+                left: 19.2rem;
+                top: 12rem;
+            }
+        }
+
+        .offerBox-2 {
+
+            img {
+                height: 300px;
+            }
+
+            .btn-themeOffer2 {
+                left: 9rem;
+                top: 12.5rem;
+            }
+
+            .offerBox-2text {
+                left: 9rem;
+                top: 3rem;
+            }
+
+            .offerBox-2text1 {
+                font-size: small;
+                left: 3.5rem;
+                top: 6rem;
+            }
+
+            .offerBox-2text2 {
+                font-size: small;
+                left: 2rem;
+                top: 8rem;
+            }
+
+            .offerBox-2text3 {
+                font-size: small;
+                left: 4rem;
+                top: 10rem;
+            }
+        }
+
+        .offerBox-3 {
+            img {
+                height: 300px;
+            }
+
+            .btn-themeOffer3 {
+                left: 1.4rem;
+                top: 12rem;
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,262 @@
+.services {
+    .service-grid {
+        .line {
+            border: 1px solid lightgrey;
+            display: grid;
+            margin-top: 2rem;
+            margin-left: 4rem;
+            width: 15rem;
+        }
+
+        .serviceCase1 {
+
+            .serviceIcon {
+                max-width: 1.5rem;
+                margin-top: 2rem;
+                margin-left: 11rem;
+                border-radius: 50%;
+                box-shadow: 0 0 10px 8px rgb(255, 255, 255);
+            }
+
+            .service-text1 {
+                margin-top: 1rem;
+                margin-left: 8rem;
+                margin-bottom: 0.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                font-weight: 700;
+            }
+
+            .service-text2 {
+                margin-top: 0;
+                margin-left: 7rem;
+                margin-bottom: 0;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+
+            .service-text3 {
+                margin-top: 0;
+                margin-left: 9.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+        }
+
+        .serviceCase2 {
+
+            .serviceIcon {
+                max-width: 1.5rem;
+                margin-top: 3rem;
+                margin-left: 11rem;
+                border-radius: 50%;
+                box-shadow: 0 0 10px 8px rgb(255, 255, 255);
+            }
+
+            .service-text1 {
+                margin-top: 1rem;
+                margin-left: 8rem;
+                margin-bottom: 0.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                font-weight: 700;
+            }
+
+            .service-text2 {
+                margin-top: 1;
+                margin-left: 7rem;
+                margin-bottom: 0;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+
+            .service-text3 {
+                margin-top: 1;
+                margin-left: 9.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+        }
+
+        .serviceCase3 {
+
+            .serviceIcon {
+                max-width: 1.5rem;
+                margin-top: 3rem;
+                margin-left: 11rem;
+                border-radius: 50%;
+                box-shadow: 0 0 10px 8px rgb(255, 255, 255);
+            }
+
+            .service-text1 {
+                margin-top: 1rem;
+                margin-left: 7.5rem;
+                margin-bottom: 0.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                font-weight: 700;
+            }
+
+            .service-text2 {
+                margin-top: 1;
+                margin-left: 7rem;
+                margin-bottom: 0;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+
+            .service-text3 {
+                margin-top: 1;
+                margin-left: 9.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+        }
+
+        .serviceCase4 {
+
+            .serviceIcon {
+                max-width: 1.5rem;
+                margin-top: 3rem;
+                margin-left: 11rem;
+                border-radius: 50%;
+                box-shadow: 0 0 10px 8px rgb(255, 255, 255);
+            }
+
+            .service-text1 {
+                margin-top: 1rem;
+                margin-left: 8.5rem;
+                margin-bottom: 0.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: medium;
+                font-weight: 700;
+            }
+
+            .service-text2 {
+                margin-top: 1;
+                margin-left: 7rem;
+                margin-bottom: 0;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+
+            .service-text3 {
+                margin-top: 1;
+                margin-left: 9.5rem;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: small;
+                font-weight: 400;
+            }
+        }
+    }
+
+    @include xl {
+        .service-grid {
+
+            .line {
+                margin-top: 8rem;
+                margin-left: 9rem;
+                width: 55rem;
+            }
+
+            .serviceCase1 {
+
+                .serviceIcon {
+                    margin-top: 4rem;
+                    margin-left: 16rem;
+                }
+
+                .service-text1 {
+                    margin-top: 1rem;
+                    margin-left: 12.5rem;
+                }
+
+                .service-text2 {
+                    margin-top: 0;
+                    margin-left: 11.5rem;
+                }
+
+                .service-text3 {
+                    margin-top: 0;
+                    margin-left: 14rem;
+                }
+            }
+
+            .serviceCase2 {
+
+                .serviceIcon {
+                    margin-top: -15.8rem;
+                    margin-left: 30rem;
+                }
+
+                .service-text1 {
+                    margin-top: -7rem;
+                    margin-left: 27rem;
+                }
+
+                .service-text2 {
+                    margin-top: -6;
+                    margin-left: 26rem;
+                }
+
+                .service-text3 {
+                    margin-top: -5;
+                    margin-left: 28rem;
+                }
+            }
+
+            .serviceCase3 {
+
+                .serviceIcon {
+                    margin-top: -18rem;
+                    margin-left: 43rem;
+                }
+
+                .service-text1 {
+                    margin-top: -8rem;
+                    margin-left: 39.5rem;
+                }
+
+                .service-text2 {
+                    margin-top: -6;
+                    margin-left: 39rem;
+                }
+
+                .service-text3 {
+                    margin-top: -5;
+                    margin-left: 41rem;
+                }
+            }
+
+            .serviceCase4 {
+
+                .serviceIcon {
+                    margin-top: -19.8rem;
+                    margin-left: 55.5rem;
+                }
+
+                .service-text1 {
+                    margin-top: -9rem;
+                    margin-left: 53rem;
+                }
+
+                .service-text2 {
+                    margin-top: -6;
+                    margin-left: 52rem;
+                }
+
+                .service-text3 {
+                    margin-top: -5;
+                    margin-left: 54rem;
+                }
+            }
+        }
+    }
+}

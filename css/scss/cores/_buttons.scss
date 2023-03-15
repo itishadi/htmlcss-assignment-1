@@ -1,0 +1,95 @@
+button {
+    border: none;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-theme {
+    background-color: #ff7373;
+    color: #ffffff;
+    padding: 20px 80px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    transition: background-color 0.25s;
+    position: relative;
+}
+
+.btn-theme::before {
+    content: "";
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    height: 25px;
+    width: 25px;
+}
+
+.btn-theme::after {
+    content: "";
+    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    height: 25px;
+    width: 25px;
+}
+
+.btn-theme:hover {
+    background-color: #222529;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.btn-icon {
+    margin: 5px;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    border: none;
+    color: $color-dark-2;
+    background-color: $color-light-1;
+    box-shadow: 0 0 5px 2px $color-shadow-2;
+    transition: background-color 0.25s, color 0.2s;
+
+    &:active,
+    &:hover,
+    .active {
+        color: $color-light-1;
+        background-color: $color-dark-2;
+    }
+}
+
+@mixin buttonpage {
+    // button {
+    //     border: none;
+    // }
+    
+    // .btn {
+    //     border-radius: 0;
+    // }
+    
+   
+}
+
+.btn-contact {
+    @include theme-colors;
+    padding: 20px 60px;
+    font-size: 1rem;
+    display: inline-block;
+    transition: background-color 0.25s;
+
+    &:hover {
+        @include dark-colors;
+    }
+}
